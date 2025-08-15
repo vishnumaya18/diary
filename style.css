@@ -1,0 +1,72 @@
+body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Login & Signup Pages */
+.login-body {
+    background: #f4e1c1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.form-container {
+    background: #fff3e0;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    text-align: center;
+}
+input, button {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid #a67b5b;
+}
+button {
+    background: #a67b5b;
+    color: white;
+    cursor: pointer;
+}
+button:hover {
+    background: #8b5e3c;
+}
+
+/* Diary Page */
+.diary-body {
+    background: #f4e1c1;
+    padding: 20px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background: #a67b5b;
+    color: white;
+    padding: 10px 20px;
+}
+.diary-container {
+    margin-top: 20px;
+}
+textarea {
+    width: 100%;
+    height: 150px;
+    background: #f8ecd8 url('https://i.ibb.co/fqjFQmm/lines.png');
+    background-size: cover;
+    border: 1px solid #a67b5b;
+    padding: 10px;
+    font-family: 'Georgia', serif;
+    font-size: 16px;
+}
+.entries {
+    margin-top: 20px;
+}
+.entry {
+    background: #f8ecd8 url('https://i.ibb.co/fqjFQmm/lines.png');
+    background-size: cover;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #a67b5b;
+}
